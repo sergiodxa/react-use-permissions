@@ -1,8 +1,8 @@
-const { useState, useEffect } = require("react");
+import React from "react";
 
 function usePermissions (name) {
-  const [result, setResult] = useState(null);
-  useEffect(
+  const [result, setResult] = React.useState(null);
+  React.useEffect(
     () => {
       navigator.permissions
         .query({ name })
