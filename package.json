@@ -1,0 +1,25 @@
+{
+  "name": "react-use-permissions",
+  "description": "React hook for Permissions API",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.js",
+  "author": "Sergio Xalambrí <hello@sergiodxa.com> (https://sergiodxa.com)",
+  "scripts": {
+    "build": "microbundle",
+    "example": "parcel example/index.html"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  },
+  "devDependencies": {
+    "microbundle": "^0.9.0",
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2"
+  }
+}
