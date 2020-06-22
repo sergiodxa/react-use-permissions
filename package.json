@@ -17,7 +17,7 @@
     "react-dom": "^16.7.0-alpha.2"
   },
   "devDependencies": {
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.12.2",
     "parcel-bundler": "^1.11.0",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2"
